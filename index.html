@@ -1,226 +1,196 @@
-<!DOCTYPE html>
-<!-- Restored to pre-YouTube version on Aug 26, 2025 -->
-<html lang="en">
+<!doctype html>
+<html lang="en" itemscope itemtype="https://schema.org/Person">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>World News • Frank Nazare — Profile</title>
+  <title>Frank Nazare, PhD, PMP, CSM — Professional Profile</title>
+  <meta name="description" content="Professional profile of Frank Nazare — IT/Software Project & Program Manager specializing in payments, API platforms, SDLC/STLC, and modernization initiatives." />
+  <meta itemprop="name" content="Frank Nazare" />
+  <meta itemprop="jobTitle" content="Senior IT / Software Project & Program Manager" />
+  <meta itemprop="worksFor" content="PaymentVision / Autoscribe" />
+  <meta itemprop="alumniOf" content="MS Cybersecurity" />
   <style>
-    :root {
-      --bg: #0b1220;
-      --card: #121a2b;
-      --muted: #8aa0c5;
-      --text: #e9f1ff;
-      --accent: #4ea1ff;
-      --pill: #1b2740;
-      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    :root{
+      --bg:#0c0f16; --panel:#111628; --muted:#9097ad; --text:#e8ecff; --brand:#7aa2ff; --brand-2:#8de1c9; --line:rgba(255,255,255,.08);
+      --shadow:0 10px 30px rgba(0,0,0,.35);
     }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-      background: radial-gradient(1200px 800px at 10% -10%, #1a2a4a 0%, transparent 60%),
-                  radial-gradient(1200px 800px at 110% 10%, #1c2444 0%, transparent 60%),
-                  var(--bg);
-      color: var(--text);
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    header.hero{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;padding:28px 24px;border-radius:20px;background:linear-gradient(180deg,rgba(122,162,255,.12),rgba(0,0,0,0));border:1px solid var(--line)}
+    .avatar{width:120px;height:120px;border-radius:24px;background:linear-gradient(135deg,var(--brand),var(--brand-2));display:grid;place-items:center;color:#0b1020;font-weight:800;font-size:40px;box-shadow:var(--shadow)}
+    .eyebrow{letter-spacing:.13em;text-transform:uppercase;font-size:12px;color:var(--muted)}
+    h1{margin:.2rem 0 .5rem;font-size:28px;line-height:1.2}
+    .lead{color:var(--muted);max-width:70ch}
+
+    /* Cards */
+    .grid{display:grid;gap:18px;margin-top:22px}
+    @media(min-width:880px){.grid{grid-template-columns:1.2fr 1fr}}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px 20px;box-shadow:var(--shadow)}
+    .card h2{margin:.2rem 0 10px;font-size:18px}
+    .tag{display:inline-block;padding:.25rem .5rem;border:1px solid var(--line);border-radius:999px;margin:.15rem .25rem 0 0;font-size:12px;color:var(--muted)}
+
+    /* Timeline */
+    .timeline{position:relative;margin:0;padding:0;list-style:none}
+    .timeline:before{content:"";position:absolute;left:10px;top:0;bottom:0;width:2px;background:var(--line)}
+    .t-item{position:relative;padding-left:34px;margin:14px 0}
+    .t-item:before{content:"";position:absolute;left:3px;top:.4rem;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--brand-2));box-shadow:0 0 0 3px rgba(122,162,255,.15)}
+    .t-role{font-weight:600}
+    .t-meta{color:var(--muted);font-size:13px}
+
+    /* List blocks */
+    .kv{display:grid;grid-template-columns:150px 1fr;gap:10px;margin:4px 0}
+    .kv .k{color:var(--muted)}
+
+    /* Footer */
+    footer{opacity:.7;text-align:center;padding:26px 6px}
+
+    /* Buttons */
+    .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.02)}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#0b1020;font-weight:700}
+
+    /* Table */
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+    th{color:var(--muted);text-align:left;font-weight:600}
+
+    /* Print */
+    @media print{
+      header.hero{border:none;box-shadow:none}
+      .btns{display:none}
+      a{text-decoration:none}
     }
-    header {
-      position: sticky; top: 0; z-index: 10;
-      backdrop-filter: blur(10px);
-      background: linear-gradient(to bottom, rgba(11,18,32,.9), rgba(11,18,32,.6));
-      border-bottom: 1px solid rgba(255,255,255,.06);
-    }
-    .wrap { max-width: 1200px; margin: 0 auto; padding: 18px 20px; }
-    .brand { display:flex; align-items:center; gap:12px; }
-    .brand .dot { width:12px; height:12px; border-radius:50%; background: var(--accent); box-shadow:0 0 20px var(--accent); }
-    .brand h1 { margin:0; font-size: clamp(18px, 2.4vw, 24px); letter-spacing:.2px; }
-
-    .grid { display:grid; grid-template-columns: 360px 1fr; gap: 22px; align-items:start; padding: 22px; }
-    @media (max-width: 980px) { .grid { grid-template-columns: 1fr; } }
-
-    .card { background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)); border: 1px solid rgba(255,255,255,.08); border-radius: 18px; box-shadow: var(--shadow); }
-    .card .card-body { padding: 18px; }
-
-    .profile { position: sticky; top: 82px; }
-    .avatar {
-      width: 92px; height: 92px; border-radius: 20px;
-      background: linear-gradient(135deg, #3456ff, #32b5ff);
-      display:flex; align-items:center; justify-content:center; font-weight: 800; font-size: 28px;
-      box-shadow: 0 12px 30px rgba(50,140,255,.35);
-    }
-    .muted { color: var(--muted); }
-    .badge { display:inline-flex; align-items:center; gap:8px; background: var(--pill); border:1px solid rgba(255,255,255,.08); color: #cfe1ff; padding:6px 10px; border-radius: 999px; font-size: 12px; }
-    .kvs { display:flex; flex-wrap:wrap; gap:10px; margin-top: 10px; }
-
-    .section-title { font-size: 14px; letter-spacing:.6px; text-transform: uppercase; color:#c6d7ff; margin: 16px 0 8px; opacity:.9 }
-    ul.clean { list-style:none; margin:0; padding:0; }
-    ul.clean li { margin: 8px 0; }
-
-    .news-toolbar { display:flex; flex-wrap: wrap; align-items:center; justify-content: space-between; gap:12px; padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,.06); }
-    .news-toolbar input { width: 320px; max-width: 100%; background: var(--pill); border:1px solid rgba(255,255,255,.08); color: var(--text); padding: 10px 12px; border-radius: 10px; }
-    .pill { background: var(--pill); padding: 6px 10px; border: 1px solid rgba(255,255,255,.08); border-radius: 999px; font-size: 12px; color:#cfe1ff }
-    .news-list { display:grid; grid-template-columns: repeat(2, 1fr); gap: 16px; padding: 16px; }
-    @media (max-width: 780px) { .news-list { grid-template-columns: 1fr; } }
-
-    .news-item { display:flex; flex-direction: column; gap:10px; padding: 16px; border-radius: 14px; background: var(--card); border: 1px solid rgba(255,255,255,.08); }
-    .news-item h3 { margin:0; font-size: clamp(17px, 2vw, 19px); }
-    .news-item a { color: var(--accent); text-decoration: none; }
-    .meta { display:flex; gap:10px; flex-wrap:wrap; align-items:center; font-size:12px; color: #c7d8ff }
-    .source { opacity:.9 }
-    .time { opacity:.75 }
-
-    footer { text-align:center; color: #a9bfe6; padding: 30px 10px 60px; }
-
-    .tiny { font-size: 12px; opacity:.7 }
-    .hint { font-size: 12px; color:#b7c9ef; }
-    code.inline { background: #0e1931; padding: 2px 6px; border-radius: 6px; border:1px solid rgba(255,255,255,.08); }
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap" style="display:flex; align-items:center; justify-content:space-between; gap:12px">
-      <div class="brand">
-        <div class="dot" aria-hidden="true"></div>
-        <h1>World News • Profile</h1>
+  <div class="wrap">
+    <!-- HERO -->
+    <header class="hero" role="banner">
+      <div class="avatar" aria-hidden="true">F</div>
+      <div>
+        <div class="eyebrow">Professional Profile</div>
+        <h1 itemprop="name">Frank Nazare, PhD, PMP, CSM</h1>
+        <p class="lead" itemprop="description">Senior IT/Software Project & Program Manager with 12+ years leading complex modernization programs across payments, APIs, and enterprise platforms. Blends methodical delivery (SDLC/STLC), quality engineering, and vendor management to ship secure, compliant solutions at scale.</p>
+        <div class="btns" role="group" aria-label="Primary actions">
+          <a class="btn primary" href="#contact">Contact</a>
+          <a class="btn" href="#experience">Experience</a>
+          <a class="btn" href="#projects">Projects</a>
+          <a class="btn" href="resume.pdf" download>Download Résumé (PDF)</a>
+        </div>
       </div>
-      <div class="tiny">Last updated: <span id="updatedAt">Aug 26, 2025</span></div>
-    </div>
-  </header>
+    </header>
 
-  <main class="wrap">
-    <div class="grid">
-      <!-- PROFILE SIDEBAR -->
-      <aside class="card profile" aria-label="Profile sidebar">
-        <div class="card-body">
-          <div style="display:flex; gap:14px; align-items:center;">
-            <div class="avatar" aria-hidden="true">FN</div>
-            <div>
-              <h2 style="margin:0 0 4px 0; font-size: 22px;">Frank Nazare, PhD, PMP, CSM</h2>
-              <div class="muted">Senior IT / Software Project & Program Manager</div>
-              <div class="kvs">
-                <span class="badge">Agile • Scrum</span>
-                <span class="badge">Payments & FinTech</span>
-                <span class="badge">QA & Automation</span>
-              </div>
-            </div>
+    <div class="grid" role="main">
+      <!-- LEFT COLUMN -->
+      <section class="card" id="summary" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <div class="kv"><div class="k">Current</div><div class="v" itemprop="worksFor">IT/Software Project & Program Manager — PaymentVision / Autoscribe</div></div>
+        <div class="kv"><div class="k">Location</div><div class="v">Gaithersburg, MD, USA</div></div>
+        <div class="kv"><div class="k">Expertise</div><div class="v">Payments (EMV, PCI, tokenization), API platforms & docs, SDLC/STLC, QA automation, vendor & stakeholder management</div></div>
+        <div class="kv"><div class="k">Education</div><div class="v">PhD; M.S. Cybersecurity</div></div>
+        <div class="kv"><div class="k">Certifications</div><div class="v">PMP, CSM, ASTQB/ISTQB, DHS Trusted Tester, CompTIA Network+, Security+</div></div>
+        <div class="kv"><div class="k">Contact</div><div class="v"><a href="mailto:fnazare@paymentvision.com" itemprop="email">fnazare@paymentvision.com</a></div></div>
+        <div class="kv"><div class="k">Links</div><div class="v"><a href="https://www.linkedin.com/" target="_blank" rel="noopener" itemprop="sameAs">LinkedIn</a> · <a href="https://github.com/" target="_blank" rel="noopener" itemprop="sameAs">GitHub</a></div></div>
+      </section>
+
+      <section class="card" id="skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <div>
+          <strong>Project & Program Leadership:</strong>
+          <div>
+            <span class="tag">Roadmaps</span><span class="tag">RACI</span><span class="tag">Risk & Compliance</span><span class="tag">Budgeting</span><span class="tag">Vendor Mgmt</span><span class="tag">Agile/Scrum</span>
           </div>
-
-          <p style="margin: 14px 0 0; line-height:1.55;">
-            Experienced leader with 12+ years spanning SDLC, STLC, test automation, and large‑scale platform modernization. Currently helping modernize PaymentVision’s developer experience and card‑processing stack (Monetra → TSYS/Transit), while driving API documentation and SDK strategy.
-          </p>
-
-          <div class="section-title">Core Skills</div>
-          <ul class="clean muted">
-            <li>Project/Program Management • RACI, risk, budgets • Vendor management</li>
-            <li>QA Automation (Selenium, UFT), API testing (SoapUI/Postman), CI/CD</li>
-            <li>Cloud & Data: Azure, AWS, SQL/Postgres/MySQL</li>
-            <li>Payments: EMV, PCI DSS, tokenization, card‑present & CNP, recurring billing</li>
-          </ul>
-
-          <div class="section-title">Certifications</div>
-          <ul class="clean muted">
-            <li>PMP • CSM • ASTQB/ISTQB • DHS Trusted Tester • CompTIA Network+ • Security+</li>
-          </ul>
-
-          <div class="section-title">Contact</div>
-          <ul class="clean muted">
-            <li>Email: <span contenteditable="true" class="pill" title="Click to edit">your.email@example.com</span></li>
-            <li>Location: <span class="pill">Gaithersburg, MD</span></li>
-            <li>LinkedIn: <span contenteditable="true" class="pill" title="Click to add">add‑profile‑url</span></li>
-          </ul>
-
-          <p class="hint">Tip: You can edit the <code class="inline">Email</code> and <code class="inline">LinkedIn</code> fields in‑place.</p>
         </div>
-      </aside>
-
-      <!-- NEWS FEED -->
-      <section class="card" aria-label="Latest world news">
-        <div class="news-toolbar">
-          <strong>Latest World Headlines</strong>
-          <input id="filter" placeholder="Filter headlines… (e.g., Iran, Gaza, China)" />
+        <div style="margin-top:8px">
+          <strong>Payments & Platforms:</strong>
+          <div>
+            <span class="tag">Monetra → TSYS/Transit</span><span class="tag">EMV</span><span class="tag">PCI DSS</span><span class="tag">Tokenization</span><span class="tag">Recurring Billing</span><span class="tag">Ingenico Lane</span>
+          </div>
         </div>
-        <div id="news" class="news-list">
-          <!--
-            These headlines were populated on Aug 26, 2025 from Reuters, AP, and Al Jazeera.
-            You can replace or add more <article> blocks below.
-          -->
-
-          <!-- Reuters -->
-          <article class="news-item" data-tags="Australia Iran Reuters arson antisemitic">
-            <h3><a href="https://www.reuters.com/world/asia-pacific/australia-blames-iran-antisemitic-arson-attacks-expels-envoy-2025-08-26/" target="_blank" rel="noopener">Australia expels Iran envoy over alleged links to antisemitic arson attacks</a></h3>
-            <div class="meta"><span class="source">Reuters</span><span class="time">Aug 26, 2025</span></div>
-          </article>
-
-          <article class="news-item" data-tags="Ukraine Russia energy talks Exxon Sakhalin Reuters">
-            <h3><a href="https://www.reuters.com/business/energy/us-russian-officials-discussed-energy-deals-alongside-latest-ukraine-peace-talks-2025-08-26/" target="_blank" rel="noopener">US, Russian officials floated energy deals alongside Ukraine peace talks</a></h3>
-            <div class="meta"><span class="source">Reuters</span><span class="time">Aug 26, 2025</span></div>
-          </article>
-
-          <article class="news-item" data-tags="China Russia Xi security development Reuters">
-            <h3><a href="https://www.reuters.com/world/china/china-russia-should-safeguard-security-development-interests-says-xi-2025-08-26/" target="_blank" rel="noopener">Xi: China and Russia should safeguard security, development interests</a></h3>
-            <div class="meta"><span class="source">Reuters</span><span class="time">Aug 26, 2025</span></div>
-          </article>
-
-          <!-- AP News (World) -->
-          <article class="news-item" data-tags="Iran UN sanctions snapback AP News diplomacy Europe">
-            <h3><a href="https://apnews.com/world-news" target="_blank" rel="noopener">European and Iranian diplomats fail to agree on avoiding UN sanctions ‘snapback’</a></h3>
-            <div class="meta"><span class="source">AP News</span><span class="time">Updated today</span></div>
-          </article>
-
-          <article class="news-item" data-tags="US deportation Uganda Abrego Garcia AP News policy">
-            <h3><a href="https://apnews.com/world-news" target="_blank" rel="noopener">US plan to deport Abrego Garcia to Uganda sparks criticism over ‘murky’ deal</a></h3>
-            <div class="meta"><span class="source">AP News</span><span class="time">Updated today</span></div>
-          </article>
-
-          <article class="news-item" data-tags="Iran nuclear program snapback AP News">
-            <h3><a href="https://apnews.com/world-news" target="_blank" rel="noopener">Iran faces potential ‘snapback’ of sanctions over its nuclear program</a></h3>
-            <div class="meta"><span class="source">AP News</span><span class="time">Updated today</span></div>
-          </article>
-
-          <!-- Al Jazeera -->
-          <article class="news-item" data-tags="Gaza journalist killing hospital strike Al Jazeera">
-            <h3><a href="https://www.aljazeera.com/" target="_blank" rel="noopener">Al Jazeera condemns killing of its journalist in Gaza; questions hospital strike</a></h3>
-            <div class="meta"><span class="source">Al Jazeera</span><span class="time">12h ago</span></div>
-          </article>
-
-          <article class="news-item" data-tags="Gaza Zeitoun bombardment Al Jazeera Israel">
-            <h3><a href="https://www.aljazeera.com/" target="_blank" rel="noopener">Israel bombs Gaza City’s Zeitoun district to rubble, residents say</a></h3>
-            <div class="meta"><span class="source">Al Jazeera</span><span class="time">Today</span></div>
-          </article>
-
+        <div style="margin-top:8px">
+          <strong>Engineering & QA:</strong>
+          <div>
+            <span class="tag">SDLC/STLC</span><span class="tag">Selenium/UFT</span><span class="tag">API Testing</span><span class="tag">SoapUI</span><span class="tag">CI/CD</span><span class="tag">SQL/Postgres</span>
+          </div>
         </div>
       </section>
-    </div>
-  </main>
 
-  <footer>
-    <div>Sources: Reuters, Associated Press, Al Jazeera (links above). Replace or add any outlets you prefer.</div>
-    <div style="margin-top:8px" class="tiny">© <span id="year"></span> Frank Nazare • Built with vanilla HTML/CSS/JS</div>
-  </footer>
+      <!-- RIGHT COLUMN -->
+      <section class="card" id="experience" aria-labelledby="exp-heading">
+        <h2 id="exp-heading">Experience</h2>
+        <ul class="timeline">
+          <li class="t-item">
+            <div class="t-role">Project & Program Manager — PaymentVision / Autoscribe</div>
+            <div class="t-meta">Modernization program • Jacksonville, FL / Gaithersburg, MD</div>
+            <ul>
+              <li>Leading gateway migration <em>(Monetra → TSYS/Global/Transit)</em> including EMV certifications, tokenization, and reporting improvements.</li>
+              <li>Standing up Stripe‑like developer experience (APIMatic portal, SDKs, DX workflows).</li>
+              <li>Coordinating vendors (BridgePay, Global/TSYS, Mojave Technologies) and cross‑functional teams.</li>
+            </ul>
+          </li>
+          <li class="t-item">
+            <div class="t-role">Senior PM / Consultant — Federal Sector (e.g., FDA Centers, CPSC)</div>
+            <div class="t-meta">Technical team lead, IV&V, QA automation, analytics</div>
+            <ul>
+              <li>Delivered compliant, traceable solutions with strong QA pipelines (UFT, Selenium) and data dashboards.</li>
+              <li>Facilitated Agile ceremonies, risk logs, and executive reporting across multi‑stakeholder programs.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card" id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Selected Projects</h2>
+        <table role="table" aria-label="Selected projects">
+          <thead>
+            <tr><th scope="col">Project</th><th scope="col">Highlights</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Payments Gateway Migration</strong><br><span class="t-meta">Hybrid approach with Transit / TSYS</span></td>
+              <td>Tokenization, recurring billing, e‑commerce readiness, EMV roadmaps; improved reporting and partner integrations.</td>
+            </tr>
+            <tr>
+              <td><strong>Developer Portal & SDKs</strong><br><span class="t-meta">APIMatic‑powered docs</span></td>
+              <td>One‑click SDKs (.NET, Java, Python), linting/validation of specs, CI for docs, onboarding playbooks.</td>
+            </tr>
+            <tr>
+              <td><strong>QA Automation Uplift</strong><br><span class="t-meta">SDLC/STLC best practices</span></td>
+              <td>Established test pyramids, API and UI regression suites, and governance for change control.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card" id="education" aria-labelledby="edu-heading">
+        <h2 id="edu-heading">Education & Certifications</h2>
+        <ul>
+          <li>PhD (Life Science)</li>
+          <li>M.S., Cybersecurity</li>
+          <li>PMP • CSM • ASTQB/ISTQB • DHS Trusted Tester • CompTIA Network+ • Security+</li>
+        </ul>
+      </section>
+
+      <section class="card" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>Open to collaboration, consulting, and advisory roles in payments, fintech, and platform modernization.</p>
+        <div class="kv"><div class="k">Email</div><div class="v"><a href="mailto:fnazare@paymentvision.com">fnazare@paymentvision.com</a></div></div>
+        <div class="kv"><div class="k">LinkedIn</div><div class="v"><a href="#">linkedin.com/in/your-profile</a></div></div>
+        <div class="kv"><div class="k">GitHub</div><div class="v"><a href="#">github.com/your-handle</a></div></div>
+      </section>
+    </div>
+
+    <footer>
+      © <span id="year"></span> Frank Nazare • Built with clean, accessible HTML/CSS.
+    </footer>
+  </div>
 
   <script>
-    // Set dynamic timestamps
-    (function(){
-      const d = new Date();
-      document.getElementById('year').textContent = d.getFullYear();
-      try {
-        const fmt = new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' });
-        document.getElementById('updatedAt').textContent = fmt.format(d);
-      } catch (e) {}
-    })();
-
-    // Simple client-side filter for headlines
-    (function(){
-      const input = document.getElementById('filter');
-      const items = Array.from(document.querySelectorAll('.news-item'));
-      input.addEventListener('input', () => {
-        const q = input.value.trim().toLowerCase();
-        items.forEach(el => {
-          const hay = (el.textContent + ' ' + (el.getAttribute('data-tags')||'')).toLowerCase();
-          el.style.display = q && !hay.includes(q) ? 'none' : '';
-        });
-      });
-    })();
+    // Update year
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
